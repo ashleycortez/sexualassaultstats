@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sexual Assault Stats in the US</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header-image">
+        <div class="headline">
+            <div class="container">
+                <h1>Every 2 Minutes</h1>
+                <h2>a sexual assault occurs in the United States</h2>
+            </div>
+        </div>
+    </header>
+        <div class="jumbotron" id="first">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-7" id="centerobject">
+                    <canvas id="doughnutChart" width="500" height="500"></canvas>
+                    <div id="doughnutChartLegend" class="legend"></div>
+                </div>
+                <div class="col-md-5">
+                    <p></p>
+                    <p class="lead">Based on US Bureau of the Census, Current Population Survey</p>
+                    <h2 class="featurette-heading">
+                        <ul><span class="text-muted">14,903,156</span> <p id="text">Women have been raped in their lifetime</p></ul>
+                        <ul><span class="text-muted">2,819,516</span> <p id="text">Women have experienced an attempted rape in their lifetime</p></ul>
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <p></p>
+                    <p class="lead">Percentage of Persons Raped or Physically Assaulted in Lifetime by Sex of Victim</p>
+                    <h2 class="featurette-heading">
+                        <ul><span class="text-muted">17,722,672</span> <p id="text">Women have been raped or sexually assaulted in their lifetime</p></ul>
+                        <ul><span class="text-muted">2,782,440</span> <p id="text">Men have been raped or sexually assaulted in their lifetime</p></ul>
+                        <ul><span class="text-muted">52,261,743</span> <p id="text">Women have experienced physical assault in their lifetime</p></ul>
+                        <ul><span class="text-muted">61,584,672</span> <p id="text">Men have experienced physical assault in their lifetime</p></ul>
+                    </h2>
+                </div>
+                <div class="col-md-7" id="centerobject">
+                    <div id="barChartLegend" class="legendtwo"></div>
+                    <canvas id="barChart" width="500" height="500"></canvas>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-7" id="centerobject">
+                    <canvas id="radarChart" width="600" height="600"></canvas>
+                    <div id="radarChartLegend" class="legend"></div>
+                </div>
+                <div class="col-md-5">
+                    <p></p>
+                    <p class="lead">Distribution of Adult Rape and Physical Assault Victims by Victim-Perpetrator Relationship and Sex of Victim</p>
+                    <h2 class="featurette-heading">
+                        <ul><span class="text-muted">76%</span> <p id="text">of women who are raped or sexually assaulted were perpetrated on by an intimate partner</p></ul>
+                        <ul><span class="text-muted">60%</span> <p id="text">of men who are raped or sexually assaulted were perpetrated on by a stranger</p></ul>
+                    </h2>
+                </div>
+            </div>
+            <div class="row" id="bottom-text">
+                <div class="container">
+                    <p>if minutes were seconds</p>
+                    <p><h2 class="featurette-heading">this is how many people have been sexually assaulted since landing on this page</h2></p>
+                    <div class="row"id="peoplecount">
+                </div> 
+            </div>  
+
+            </div> 
+        </div>
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Source: <a href="https://www.ncjrs.gov/pdffiles/172837.pdf"/>National Institute of Justice Centers for Disease Control and Prevention</a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+    <!-- CHART JS -->
+    <script src="js/Chart.js"></script>
+
+    <!-- CUSTOM JS -->
+    <script src="js/main.js"></script>
+
+</html>
